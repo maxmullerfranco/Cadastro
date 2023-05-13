@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="cadastro.css">
+  <title>Maxmuller Aula 06-07</title>
+</head>
+<body>
+  <h1 class="title">Para continuar tento acesso a nossa plataforma e necessáro fazer o cadastro</h1>
+  <form action="autenticar" method="post">
+    <div class="container">
+      
+      <div class="nome">
+        <label for="name">Nome completo</label>
+        <input type="text" id="name" name="name" placeholder="Digite seu Nome"/><br/>
+      </div>
+      
+
+      <div class="data">
+        <label for="data">Data</label>
+        <input type="date" id="senha" name="senha" placeholder="Data de nascimento"><br/><br/>
+      </div>
+
+      <div class="rg">
+        <label for="rg">RG</label>
+        <input type="number" id="rg" name="rg" placeholder="Número do RG"><br/><br/>
+      </div>
+
+      <div class="cpf">
+        <label for="cpf">CPF</label>
+        <input type="number" id="cpf" name="cpf" placeholder="Digite seu CPF"><br/><br/>
+      </div>
+
+      <div class="email">
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email" placeholder="E-mail"><br/>
+      </div>
+
+      <div class="mae">
+        <label for="mae">Nome da mãe</label>
+        <input type="text" id="mae" name="mae" placeholder="Digite o nome da mãe"><br/>
+      </div>
+
+      <div class="pai">
+        <label for="pai">Nome do pai</label>
+        <input type="text" id="pai" name="pai" placeholder="Digite o nome do Pai"><br/>
+      </div>
+
+      <div class="uf">
+        <label for="uf">Escolha um Estado</label>
+        <select name="uf" id="uf">
+          <option value="0" selected>Selecionar um Estado</option>
+          <option value="AC">Acre</option>
+          <option value="BA">Bhaia</option>
+          <option value="CE">Ceará</option>
+          <option value="DF">Distrito Federal</option>
+          <option value="GO">Goiás</option>
+          <option value="MA">Maranhão</option>
+          <option value="PI">Piauí</option>
+          <option value="RJ">Rio de Janeiro</option>
+          <option value="RO">Roraioma</option>
+          <option value="SP">São Paulo</option>
+          <option value="TO">Tocantins</option>
+        </select>
+      </div><br/>
+
+      <div class="cep">
+        <label for="cep">CEP</label>
+        <input type="number" id="cep" name="cep" placeholder="Digite seu CEP"><br/><br/>
+      </div>
+
+      <div class="cidade">
+        <label for="cidade">Cidade</label>
+        <input type="text" id="cidade" name="cidade" placeholder="Digite o nome da Cidade"><br/><br/>
+      </div>
+
+      <div class="endereco">
+        <label for="endereco">Endereço</label>
+        <input type="text" id="" name="" placeholder="Nome da rua"><br/>
+      </div>
+
+      <div class="numero">
+        <label for="numero">Numero</label>
+        <input type="number" id="numero" name="numero" placeholder="Número da rua"><br/><br/>
+      </div>
+
+      <form action="autenticar" method="get">
+        <div class="certo">
+          <input type="checkbox" id="certo" name="certo" value="certo">
+          <label for="certo">Eu não sou um robô</label><br/>
+        </div>
+      </form>
+      
+
+      <div class="botao">
+        <button type="submit">cadastrar</button>
+        <button type="reset">Limpar</button>
+      </div>
+
+    </div>
+  </form>
+</body>
+</html>
